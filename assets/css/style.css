@@ -1,0 +1,38 @@
+/* HEADER */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 4rem 0px;
+  z-index: 2021;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header .container nav .menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .container nav .menu li {
+  margin-right: 4.8rem;
+}
+
+header .container nav .menu-social {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-left: 4rem;
+  gap: 3.4rem;
+}
