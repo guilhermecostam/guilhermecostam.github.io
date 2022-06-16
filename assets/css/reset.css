@@ -18,9 +18,13 @@ img {
 }
 
 button {
+  border: none;
+  outline: none;
   cursor: pointer;
 }
 
 body {
+  font-size: 1.6rem;
+  -webkit-font-smooting: antialiased;
   background-color: var(--black-color);
 }
