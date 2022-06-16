@@ -1,0 +1,38 @@
+
+/* My variable colors */
+
+:root {
+  --primary-color: #dcf64b;
+  --second-color: #a0b435;
+  --black-color: #000000;
+  --black-color-medium: #0c0c0c;
+  --semi-black: #1e1e1e;
+  --white-color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1246px;
+  margin: 0 auto;
+  padding: 0rem 1.5rem;
+}
+
+.container-fluid {
+  width: 100%;
+  padding: 0rem 1.8rem;
+}
+
+/* Title Patterns */
+
+h2 {
+  font-family: "Inter";
+  font-weight: 800;
+  font-size: 6.4rem;
+  line-height: 7.7rem;
+  color: var(--white-color);
+  margin-top: 2rem;
+}
+  
+h2 span {
+  color: var(--primary-color);
+}
