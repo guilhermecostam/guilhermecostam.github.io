@@ -1,6 +1,5 @@
 
 /* My variable colors */
-
 :root {
   --primary-color: #dcf64b;
   --second-color: #a0b435;
@@ -10,6 +9,7 @@
   --white-color: #ffffff;
 }
 
+/* Grid normal 12columns */
 .container {
   width: 100%;
   max-width: 1246px;
@@ -17,13 +17,13 @@
   padding: 0rem 1.5rem;
 }
 
+/* Grid fluid 100% */
 .container-fluid {
   width: 100%;
   padding: 0rem 1.8rem;
 }
 
 /* Title Patterns */
-
 h2 {
   font-family: "Inter";
   font-weight: 800;
