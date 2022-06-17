@@ -78,8 +78,16 @@ header .container nav .menu-social img:hover {
   color: var(--white-color);
 }
 
-.s-hero .container .title-box h1 span {
+.s-hero .container .title-box h1 .name{
   color: var(--primary-color);
+}
+
+.s-hero .container .title-box h1 .wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
 }
 
 .s-hero .container .title-box h2 {
