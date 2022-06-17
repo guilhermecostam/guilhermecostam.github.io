@@ -23,6 +23,29 @@
     flex-direction: column;
     gap: 4rem;
   }
+
+  .s-contact .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .s-contact .container .title-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;
+  }
+  .s-contact .container .title-contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input-button {
+    justify-content: center;
+  }
 }
 
 @media (max-width: 900px) {

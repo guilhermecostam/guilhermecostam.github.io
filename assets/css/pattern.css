@@ -79,6 +79,42 @@ h2 span {
   transform: scale(1.04);
 }
 
+/* Form Patterns */
+.tag {
+  border-radius: 5rem;
+  padding: 0.6rem 2.7rem;
+  background-color: var(--white-color);
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+input[type="text"],
+textarea {
+  background-color: var(--semi-black);
+  border: 1px solid var(--semi-black);
+  border-radius: 0.4rem;
+  width: 100%;
+  padding: 2rem;
+  resize: none;
+  color: var(--white-color);
+  outline: none;
+  transition: all 0.4s;
+}
+
+input[type="text"]:hover,
+textarea:hover {
+  border: 1px solid var(--primary-color);
+}
+
+.open-menu {
+  display: none;
+}
+
+.close-menu {
+  display: none;
+}
+
+/* Footer Patterns */
 .footer-link {
   display: inline-block;
   color: var(--primary-color);
