@@ -65,7 +65,7 @@ header .container nav .menu-social img:hover {
   align-items: center;
   width: 100%;
   max-width: 59.2rem;
-  margin-top: 24rem;
+  margin-top: 19rem;
   padding-bottom: 6rem;
 }
 
@@ -91,20 +91,11 @@ header .container nav .menu-social img:hover {
   margin-bottom: 3.2rem;
 }
 
-.s-hero .container .title-box p {
-  font-weight: 400;
-  font-size: 1.8rem;
-  line-height: 2.7rem;
-  text-align: center;
-  color: var(--primary-color);
-}
-
 .s-hero .container .title-box .techs {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 1.6rem;
-  margin-top: 2.3rem;
 }
 
 .s-hero .container .title-box .techs img{
