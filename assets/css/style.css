@@ -1,4 +1,4 @@
-/* SECTION HEADER */
+/* Header */
 header {
   position: absolute;
   top: 0;
@@ -36,8 +36,15 @@ header .container nav .menu-social {
   margin-left: 4rem;
   gap: 3.4rem;
 }
+header .container nav .menu-social img {
+  transition: all 0.2s;
+}
+header .container nav .menu-social img:hover {
+  filter: brightness(90%);
+  transform: translateY(-5%);
+}
 
-/* SECTION HERO */
+/* Section hero */
 .s-hero {
   background: url(../img/s-hero-bg.jpg);
   background-size: cover;
@@ -103,4 +110,23 @@ header .container nav .menu-social {
 .s-hero .container .title-box .btn-primary {
   margin-top: 4rem;
   padding: 1rem 5.6rem;
+}
+
+/*Footer*/
+footer {
+  background-color: var(--black-color-medium);
+}
+
+footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .container .copy {
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  padding: 5.2rem 0;
 }
