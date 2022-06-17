@@ -37,14 +37,11 @@
     justify-content: center;
     margin-bottom: 4rem;
   }
-  .s-contact .container .title-contact form {
+
+  .s-contact .container .links-contact {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .input-button {
-    justify-content: center;
   }
 }
 
