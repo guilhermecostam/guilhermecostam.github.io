@@ -153,6 +153,42 @@ header .container nav .menu-social img:hover {
   border-radius: 4px;
 }
 
+/* Cases */
+.s-cases {
+  padding: 4.5rem 0;
+  margin-bottom: 8rem;
+}
+
+.s-cases .container {
+  display: flex;
+  flex-direction: column;
+}
+.s-cases .container .title-cases {
+  margin-bottom: 7.3rem;
+}
+
+.s-cases .container .cases {
+  display: flex;
+  width: 100%;
+  gap: 1.4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-cases .container .cases .case:nth-child(2) {
+  margin-top: -1.2rem;
+}
+
+.s-cases .container .cases img {
+  border-radius: 0.4rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.s-cases .container .cases img:hover {
+  transform: translateY(-2%);
+}
+
 /*Footer*/
 footer {
   background-color: var(--black-color-medium);
