@@ -14,6 +14,17 @@ header .container {
   align-items: center;
 }
 
+header .container .logo {
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 3.4rem;
+  color: var(--primary-color);
+}
+
+header .container .logo span {
+  color: var(--white-color);
+}
+
 header .container nav {
   display: flex;
   align-items: center;
