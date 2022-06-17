@@ -107,6 +107,14 @@ header .container nav .menu-social img:hover {
   margin-top: 2.3rem;
 }
 
+.s-hero .container .title-box .techs img{
+  transition: all 0.2s;
+}
+
+.s-hero .container .title-box .techs img:hover{
+  transform: translateY(-12%);
+}
+
 .s-hero .container .title-box .btn-primary {
   margin-top: 4rem;
   padding: 1rem 5.6rem;
