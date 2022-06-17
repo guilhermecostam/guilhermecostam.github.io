@@ -1,7 +1,7 @@
 /* My variable colors */
 :root {
   --primary-color: #3498DB;
-  --second-color: #a0b435;
+  --second-color: #71c1f7;
   --black-color: #000000;
   --black-color-medium: #0c0c0c;
   --semi-black: #1e1e1e;
@@ -99,24 +99,7 @@ h2 span {
   font-weight: 300;
 }
 
-input[type="text"],
-textarea {
-  background-color: var(--semi-black);
-  border: 1px solid var(--semi-black);
-  border-radius: 0.4rem;
-  width: 100%;
-  padding: 2rem;
-  resize: none;
-  color: var(--white-color);
-  outline: none;
-  transition: all 0.4s;
-}
-
-input[type="text"]:hover,
-textarea:hover {
-  border: 1px solid var(--primary-color);
-}
-
+/* Mobile Menu Patterns */
 .open-menu {
   display: none;
 }
@@ -137,5 +120,5 @@ textarea:hover {
 
 .footer-link:hover {
   color: var(--white-color);
-  transform: scale(1.04);
+  transform: translateY(-6%);
 }
