@@ -95,10 +95,17 @@ header .container nav .menu-social img:hover {
 
 .s-hero .container .title-box h1 .wave {
   animation-name: wave-animation;
-  animation-duration: 2.5s;
-  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
   transform-origin: 70% 70%;
   display: inline-block;
+}
+
+.s-hero .container .title-box h1 .wave:hover {
+  animation-name: wave-animation;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
 }
 
 .s-hero .container .title-box h2 {
@@ -121,7 +128,7 @@ header .container nav .menu-social img:hover {
   transition: all 0.2s;
 }
 
-.s-hero .container .title-box .techs img:hover{
+.s-hero .container .title-box .techs img:hover {
   transform: translateY(-12%);
 }
 
