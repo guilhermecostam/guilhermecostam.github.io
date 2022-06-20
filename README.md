@@ -14,8 +14,8 @@ My personal portfolio developed with the knowledge acquired in the Be Academy co
 These are the features I used in developing this project.
 
 - **HTML** — Hypertext Markup Language.
-- **CSS** — Docker's container orchestrator.
-- **JavaScript** — Relational database.
+- **CSS** — HTML component style application.
+- **JavaScript** — Structured interpreted programming language.
 
 ## Getting started
 
