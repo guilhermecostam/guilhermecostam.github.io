@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "My Personal Portfolio",
+    "short_name": "Portfolio",
+    "version": "1.0",
+    "description": "Ahoy! My name is Guilherme Costa and I am a Web Developer. My current goal as a programmer is to seek knowledge, learning and experience to become a more and more capable professional.",
+    "action": {},
+    "author": "Guilherme Costa de Medeiros",
+    "start_url": "/",
+    "default_locale": "pt-br",
+    "display": "standalone",
+    "background_color": "#000000",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "16x16",
+        "type": "image/x-icon"
+      }
+    ]
+  }

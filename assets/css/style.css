@@ -57,7 +57,7 @@ header .container nav .menu-social img:hover {
 
 /* Section hero */
 .s-hero {
-  background: url(../img/s-hero-bg.jpg);
+  background: url(../img/s-hero-bg.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
