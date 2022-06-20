@@ -216,7 +216,7 @@ header .container nav .menu-social img:hover {
 
 /* Contact */
 .s-contact {
-  padding-bottom: 4rem;
+  background-color: var(--black-color-medium);
 }
 
 .s-contact .container {
@@ -230,9 +230,7 @@ header .container nav .menu-social img:hover {
 }
 
 .s-contact .container .links-contact {
-  width: 100%;
-  margin-top: 3rem;
-  max-width: 48.6rem;
+  margin-top: 6rem;
 }
 
 .s-contact .container .links-contact span {
@@ -260,10 +258,6 @@ header .container nav .menu-social img:hover {
 }
 
 /*Footer*/
-footer {
-  background-color: var(--black-color-medium);
-}
-
 footer .container {
   display: flex;
   align-items: center;
