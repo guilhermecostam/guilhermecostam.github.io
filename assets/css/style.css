@@ -137,6 +137,17 @@ header .container nav .menu-social img:hover {
   padding: 1rem 5.6rem;
 }
 
+@keyframes wave-animation {
+  0% { transform: rotate( 0.0deg) }
+  10% { transform: rotate(14.0deg) }
+  20% { transform: rotate(-8.0deg) }
+  30% { transform: rotate(14.0deg) }
+  40% { transform: rotate(-4.0deg) }
+  50% { transform: rotate(10.0deg) }
+  60% { transform: rotate( 0.0deg) }
+  100% { transform: rotate( 0.0deg) }
+}
+
 /* About */
 .s-about {
   background-color: var(--black-color-medium);
@@ -270,4 +281,43 @@ footer .container .copy {
   font-size: 1.6rem;
   line-height: 2.4rem;
   padding: 5.2rem 0;
+}
+
+footer .scroll-to-top {
+  position: relative;
+}
+
+footer .scroll-to-top .btn-position {
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 20;
+}
+
+footer .scroll-to-top .btn-style {
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  animation: button-animation 4.5s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+footer .scroll-to-top .btn-style:hover {
+  animation: none;
+  filter: brightness(80%);
+}
+
+@keyframes button-animation {
+  0% { transform: translateY(0px) }
+  20% { transform: translateY(14px) }
+  40% { transform: translateY(-8px) }
+  60% { transform: translateY(14px) }
+  80% { transform: translateY(-8px) }
+  100% { transform: translateY(0px) }
 }
