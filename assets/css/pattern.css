@@ -90,7 +90,7 @@ h2 span {
   100% { transform: rotate( 0.0deg) }
 }
 
-/* Form Patterns */
+/* General Patterns */
 .tag {
   border-radius: 5rem;
   padding: 0.6rem 2.7rem;
