@@ -205,14 +205,19 @@ header .container nav .menu-social img:hover {
 
 .s-cases .container .cases {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
   gap: 1.4rem;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
 }
 
+.s-cases .container .cases .case {
+  width: 31%
+}
+
 .s-cases .container .cases .case:nth-child(2) {
-  margin-top: -1.2rem;
+  margin-top: -1.4rem;
 }
 
 .s-cases .container .cases img {
